@@ -68,7 +68,9 @@ fun NewContent(modifier: Modifier = Modifier) {
                     colors = TextFieldDefaults.textFieldColors(
                         backgroundColor = Color.DarkGray,
                         unfocusedIndicatorColor = Color.Unspecified,
-                        focusedIndicatorColor =Color.White
+                        focusedIndicatorColor =Color.White,
+                        textColor =  Color.White
+
                     )
                 )
 
